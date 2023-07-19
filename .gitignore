@@ -1,0 +1,6 @@
+*.pyc
+.DS_store
+venv
+
+# Ignore print directory
+print

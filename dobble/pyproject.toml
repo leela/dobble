@@ -1,0 +1,28 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "dobble"
+version = "1.0.0"
+description = "Generate dobble game cards"
+readme = "README.md"
+authors = [{ name = "Leela Vadlamudi", email = "leela.vadlamudi@gmail.com" }]
+keywords = ["dobble", "card-game",]
+dependencies = [
+    "Pillow >= 10.0.0",
+]
+requires-python = ">=3.11"
+
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/leela/dobble"
+
+[project.scripts]
+realpython = "dobble.__main__:main"
