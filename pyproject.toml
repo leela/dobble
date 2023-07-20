@@ -11,7 +11,7 @@ version = "1.0.0"
 description = "Generate dobble game cards"
 readme = "README.md"
 authors = [{ name = "Leela Vadlamudi", email = "leela.vadlamudi@gmail.com" }]
-keywords = ["dobble", "card-game",]
+keywords = ["dobble", "card-game", "dobble-cards"]
 dependencies = [
     "Pillow >= 10.0.0",
 ]

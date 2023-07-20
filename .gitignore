@@ -1,6 +1,8 @@
 *.pyc
 .DS_store
 venv
+dobble.egg-info
 
 # Ignore print directory
 print
+
